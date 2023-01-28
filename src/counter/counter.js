@@ -9,6 +9,9 @@ const createCounter=()=>{
     const incrementButton = document.createElement("button")
     const decrementButton = document.createElement("button")
 
+    //Creating class names
+    counterContainer.classList.add("counterContainer")
+
     //appending elements and text
     const root = document.getElementById('root')
     root.appendChild(counterContainer)

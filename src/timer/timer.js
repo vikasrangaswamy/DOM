@@ -12,6 +12,8 @@ const creatTimer=()=>{
     const resetButton = document.createElement("button")
     const stopButton=document.createElement("button")
 
+    timerContainer.classList.add("timerContainer")
+
     root.appendChild(timerContainer)
     timerContainer.appendChild(timerHeading)
     timerContainer.appendChild(timerValue)
@@ -63,3 +65,4 @@ const creatTimer=()=>{
 }
 
 creatTimer()
+// export default creatTimer.timerContainer
